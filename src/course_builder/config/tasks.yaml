@@ -1,0 +1,29 @@
+
+extract_pdf_content_task:
+  description: >
+    Read the entire local PDF file and extract **all content** and rewrite it in a way suitable for learners.
+    The content should be structured in a way that is easy to understand and follow.
+  expected_output: >
+    A complete outline of the PDF in Markdown-style formatting with:
+    - Top-level headings (##)
+    - Subheadings if any
+    - Paragraphs
+    - Bullet points
+    Remove any unnecessary formatting or metadata or page or section numbers
+  agent: doc_extractor
+  
+slide_design_task:
+  description: >
+    "Take the extracted primary topics and create one HTML file per topic. Enclose the content in body tag.
+    Ensure the content is educational and engaging, suitable for course creation. You can use interactive contents as well"
+  expected_output: >
+    A JSON object where:
+    - Keys are the main topics or section titles.
+    - Values are HTML strings representing the content of each section.
+    Example:
+    {
+      "key": "HTML value"
+    }
+  agent: slide_designer
+
+
