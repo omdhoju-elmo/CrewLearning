@@ -1,29 +1,56 @@
 
 extract_pdf_content_task:
   description: >
-    Read the entire local PDF file and extract **all content** and rewrite it in a way suitable for learners.
-    The content should be structured in a way that is easy to understand and follow.
+    "Read the entire local PDF file and extract all educationally relevant content in a way that is suitable for students learning the subject.
+
+    Your job is to rewrite the raw PDF content into a clean, logically structured, and readable outline that could be used to generate educational slides.
+
+    Be sure to:
+    - Make the content verbose and clear, avoiding jargon or overly complex language. 
+    - Don't try to summarize and shorten the content 
+    - No bullets or lists in the output, but use clear paragraphs.
+    - Remove all irrelevant formatting, metadata, page numbers, and section numbers.
+    - Focus on **clarity and comprehension**, rephrasing text when necessary to make it more digestible for learners.
+    - Maintain a clear **hierarchy of information**, using top-level headings for major sections and subheadings for detailed breakdowns.
+    - Add your own brief clarifications or simplifications where needed to help the learner understand.
+
   expected_output: >
-    A complete outline of the PDF in Markdown-style formatting with:
-    - Top-level headings (##)
-    - Subheadings if any
-    - Paragraphs
-    - Bullet points
-    Remove any unnecessary formatting or metadata or page or section numbers
+    "A full educational outline derived from the PDF, structured in Markdown format as follows:
+
+    - Use `##` for main slide topics (top-level concepts)
+    - Use `###` for subtopics or learning objectives under each main heading
+    - Include examples, definitions, or analogies where appropriate
+    - Make the content engaging and beginner-friendly
+
+    The resulting outline will be used to generate one slide per primary topic, so clarity, structure, and completeness are essential."
   agent: doc_extractor
   
 slide_design_task:
   description: >
-    "Take the extracted primary topics and create one HTML file per topic. Enclose the content in body tag.
-    Ensure the content is educational and engaging, suitable for course creation. You can use interactive contents as well"
+    "Take the structured and enriched content produced from the PDF and convert it into a set of HTML-formatted slides for educational delivery.
+    Be sure to: 
+    - Do not alter the content or add any new information."
+    - Just format the content into HTML for each slide.
+    - Create seperate slides for it each main topic and include it's content in that slide.
   expected_output: >
-    A JSON object where:
-    - Keys are the main topics or section titles.
-    - Values are HTML strings representing the content of each section.
-    Example:
+    A JSON object like:
+
     {
-      "key": "HTML value"
+      "Introduction to Machine Learning": "<body> <h2>Introduction to Machine Learning</h2><p>Machine learning is...</p><ul><li>It can learn from data</li><li>Used in email filtering</li></ul></body>",
+      "Supervised Learning": "<body> <h2>Supervised Learning</h2><p>Supervised learning requires labeled data...</p><ul><li>Trains on input-output pairs</li><li>Used for classification</li></ul> </body>",
     }
+
+    This structure will be saved and rendered as individual slides in the learning platform.
   agent: slide_designer
+
+
+elearning_aurthor_task:
+  description: >
+    Take the generated slides Json object from the previous task and POST them to an external API for storage and rendering.
+    You must ensure the data is valid JSON, and represents one HTML slide per key.
+  expected_output: >
+    Confirmation message from the API indicating successful submission.
+  agent: elearning_aurthor
+
 
 

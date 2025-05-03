@@ -1,10 +1,9 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
-from crewai_tools import SerperDevTool
 from typing import List
 from course_builder.tools.pdf_reader_tool import extract_pdf_content
-from course_builder.output.SlideModel import SlideModel
+from course_builder.tools.create_elearning_tool import create_elearning
 # If you want to run a snippet of code before or after the crew starts,
 # you can use the @before_kickoff and @after_kickoff decorators
 # https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
@@ -15,7 +14,6 @@ class CourseBuilder():
 
     agents: List[BaseAgent]
     tasks: List[Task]
-    search_tool = SerperDevTool() 
 
 
     # Learn more about YAML configuration files here:
@@ -39,6 +37,14 @@ class CourseBuilder():
             config=self.agents_config['slide_designer'], # type: ignore[index]
             verbose=True
         )
+    
+    @agent
+    def elearning_aurthor(self) -> Agent:
+        return Agent(
+            config=self.agents_config['elearning_aurthor'], # type: ignore[index]
+            tools=[create_elearning], # type: ignore[index]
+            verbose=True
+        )
 
 
     # To learn more about structured task outputs,
@@ -58,6 +64,13 @@ class CourseBuilder():
         return Task(
             config=self.tasks_config['slide_design_task'],
             output_file='slides.json',
+        )
+    
+    @task
+    def create_elearning_task(self) -> Task:
+        return Task(
+            config=self.tasks_config['elearning_aurthor_task'],
+            output_file='elearning.json',
         )
 
     @crew

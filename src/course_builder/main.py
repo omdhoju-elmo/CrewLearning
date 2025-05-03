@@ -17,9 +17,12 @@ def run():
     """
     Run the crew.
     """
+    inputs = {
+        "pdf_file_path": "src/course_builder/data/LeavePolicyAustralia1.3.pdf",
+    }
     
     try:
-        CourseBuilder().crew().kickoff()
+        CourseBuilder().crew().kickoff(inputs=inputs)
     except Exception as e:
         raise Exception(f"An error occurred while running the crew: {e}")
 
