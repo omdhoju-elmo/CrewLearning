@@ -18,6 +18,7 @@ def run():
     Run the crew.
     """
     inputs = {
+        "topic": "Australian Attractions",
         "pdf_file_path": "src/course_builder/data/LeavePolicyAustralia1.3.pdf",
     }
     

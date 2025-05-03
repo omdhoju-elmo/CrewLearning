@@ -4,6 +4,7 @@ from crewai.agents.agent_builder.base_agent import BaseAgent
 from typing import List
 from course_builder.tools.pdf_reader_tool import extract_pdf_content
 from course_builder.tools.create_elearning_tool import create_elearning
+from crewai_tools import SerperDevTool
 # If you want to run a snippet of code before or after the crew starts,
 # you can use the @before_kickoff and @after_kickoff decorators
 # https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
@@ -45,6 +46,13 @@ class CourseBuilder():
             tools=[create_elearning], # type: ignore[index]
             verbose=True
         )
+    
+    @agent
+    def course_creator(self) -> Agent:
+        return Agent(
+            config=self.agents_config['course_creator'], # type: ignore[index]
+            verbose=True
+        )
 
 
     # To learn more about structured task outputs,
@@ -71,6 +79,16 @@ class CourseBuilder():
         return Task(
             config=self.tasks_config['elearning_aurthor_task'],
             output_file='elearning.json',
+        )
+    
+    @task
+    def create_course_from_topic_task(self) -> Task:
+        search_tool= SerperDevTool()
+        return Task(
+            config=self.tasks_config['create_course_from_topic_task'],
+            tools=[search_tool],
+            output_file='course.json',
+            human_input=True
         )
 
     @crew

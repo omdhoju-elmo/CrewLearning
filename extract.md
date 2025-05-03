@@ -1,105 +1,121 @@
 ## Leave Policy Overview
 
-The Leave Policy is designed to guide ELMO employees regarding their entitlements, responsibilities, and requirements when requesting leave. This policy ensures that all employees can balance their professional and personal needs while meeting ELMO's operational goals and complying with national employment standards.
+The Leave Policy for employees of ELMO is designed to clarify leave entitlements, responsibilities, and requirements during the process of requesting leave. This policy aims to balance personal, professional, and family needs, ensuring compliance with the National Employment Standards (NES).
 
 ### Purpose of the Leave Policy
 
-The Leave Policy serves to properly inform employees about their leave entitlements, which support them in managing personal, professional, and family responsibilities effectively. The focus is on integrating leave planning into overall workload management while adhering to ELMO’s strategic objectives.
+The purpose is to support employees in managing their work alongside personal responsibilities effectively. This policy aims to integrate leave planning into workload management while aligning with ELMO's operational objectives.
 
 ### Scope of the Policy
 
-This policy applies to all full-time and part-time employees at ELMO.
+This policy is applicable to all full-time and part-time employees, providing clear guidelines on how leave is to be managed and utilized within the company.
 
 ### Document Maintenance
 
-The Leave Policy is subject to an annual review or an ad-hoc review in case of significant changes, ensuring that it stays current and relevant.
+The leave policy is subject to an annual review or can be revised in response to significant changes. It is essential for relevant roles within the company to review and accept this policy.
 
-## Related Legislation
+### Related Legislation
 
-The policy is governed by the National Employment Standards (NES).
+The policy aligns with the National Employment Standards (NES).
 
-## Leave Application Process
+### Types of Leave
 
-All leave requests must be submitted via the designated system, PayRTA in Bloom, and must be approved by a manager prior to planned leaves. For unplanned leaves, like sick leave, employees must submit their requests on their first day back at work, accompanied by required documentation.
+Employees are entitled to various types of leave, which include:
 
-## Types of Leave
-
-The following types of leave are included within the policy:
+- Annual Leave
+- Personal Leave (sick and carer's leave)
+- Compassionate and bereavement Leave
+- Stillbirth and Miscarriage Leave
+- Unpaid Leave
+- Community Service Leave (for jury service and emergency management)
+- Paid Parental Leave (PPL)
+- Long Service Leave
+- Time in Lieu
+- Family and Domestic Violence Leave
+- You Day
+- Birthday Leave
+- Connecting People Leave
 
 ### Annual Leave
 
-Employees, apart from casual workers, accumulate four weeks of paid annual leave for each year of employment. This leave accumulates as per the ordinary hours worked. Employees can take annual leave upon accrual, and it is critical that they have management's agreement on when it can be taken, considering business operations.
+Full-time and part-time employees earn four weeks of paid annual leave each year, which accumulates based on hours worked. The annual leave is paid at the employee's standard rate and can be taken as soon as it is accrued. Employees should coordinate with their managers regarding the timing of their leave, acknowledging that certain busy periods may have restrictions on when leave can be taken.
 
 #### Block-out Periods
 
-There are peak periods wherein leave requests will be paused, known as block-out periods, and any changes will be communicated well ahead of time.
+During peak operational times, there may be periods when leave requests cannot be approved. Employees will be notified of these block-out periods in advance.
+
+#### Accessing Annual Leave
+
+To access annual leave, employees must discuss their needs with their managers, submit requests through the designated system, and obtain approval before the leave is taken.
+
+#### Excessive Annual Leave
+
+If an employee's leave balance exceeds eight weeks, ELMO may direct them to take some leave to maintain a healthy balance and encourage the use of entitlements.
 
 ### Personal Leave
 
-Personal leave entitles employees to 10 days of paid sick leave per year, with conditions around notifying managers and providing medical evidence as necessary. 
+Employees are entitled to 10 days of personal leave each year for sickness or to care for an immediate family member. This leave is accrued based on hours worked and can be used for medical appointments or family emergencies. 
+
+#### Accessing Personal Leave
+
+Employees must notify their managers as soon as possible when sick and may need to present a medical certificate if absent for more than two consecutive days. Clear guidelines exist to ensure that leave is documented accurately upon return to work.
 
 ### Compassionate Leave
 
-In the event of a family member's death, employees are entitled to three days of paid compassionate leave. Additional days may be available for deaths that occur overseas.
+In the event of a death or severe illness in the family, employees are entitled to three days of paid compassionate leave, along with additional leave under certain conditions.
 
-### Stillbirth or Miscarriage Leave
+#### Accessing Compassionate Leave
 
-Extra provisions are available for employees who experience stillbirth or miscarriage, providing additional paid leave on top of compassionate leave entitlements.
+Employees must discuss their requests for compassionate leave with their managers and submit a formal request.
+
+### Stillbirth and Miscarriage Leave
+
+ELMO supports employees experiencing stillbirth or miscarriage by providing additional leave entitlements alongside compassionate leave.
 
 ### Unpaid Leave
 
-Employees may request unpaid leave for various reasons, subject to managerial approval, with limitations on the duration and operational impacts considered.
+Employees may request unpaid leave, subject to managerial approval, with specific limitations on the duration and conditions under which it can be taken.
 
 ### Community Service Leave
 
-This type of leave covers voluntary emergency management activities and jury service, ensuring that employees can fulfill civic duties.
+Employees may take leave for community service activities, including jury service and voluntary emergency management roles, with provisions for documenting such requests accurately.
 
 ### Paid Parental Leave (PPL)
 
-Primary caregivers are entitled to 12 weeks of paid parental leave, while secondary caregivers are entitled to six weeks. This leave is in addition to any government benefits and is available for adoptive parents as well.
+PPL is available to primary and secondary caregivers, supporting time off for new parents while considering government entitlements and adoption circumstances.
 
 ### Long Service Leave
 
-Employees are entitled to long service leave after completing a specified period of continuous service, with entitlements defined by state regulations.
+Entitlements for long service leave are assigned based on continuous service, with specific local regulations guiding payout conditions.
 
-### Time in Lieu
+### Time in Lieu (TIL)
 
-Time in Lieu may be awarded for hours worked beyond normal working hours and must be pre-approved.
+Employees may be eligible for TIL for excessive hours worked beyond the standard expectation, requiring prior approval from management.
 
 ### Family and Domestic Violence Leave
 
-Employees in situations of domestic violence are entitled to 10 days of leave annually, ensuring support for their wellbeing.
+Employees facing threats or violence in a domestic situation are entitled to 10 days of leave, which does not accumulate year to year.
 
 ### You Day
 
-ELMO promotes employee wellness by providing one "You Day" per year that employees can take to focus on personal health.
+Employees have the benefit of one designated day to focus on their wellbeing, which works toward fostering a supportive work environment.
 
 ### Birthday Leave
 
-Employees are entitled to one paid birthday leave day to be taken within their birthday month.
+Employees can celebrate their birthdays with one day of paid leave that must be taken during their birthday month.
 
-### Connecting People
+### Connecting People Leave
 
-This initiative allows employees to connect with loved ones through flexible leave arrangements, including the ability to work from different locations.
+This policy encourages employees to maintain social connections with loved ones, supporting occasional leaves for travel when necessary.
 
-## Responsibilities
+## Responsibilities Related to Leave Policy
 
-### People & Culture Team
+**People & Culture Team and Payroll** are responsible for maintaining accurate leave records and communicating the policy effectively to all employees.
 
-This team is responsible for ensuring the accurate calculation of leave entitlements, communicating policy updates, and managing excess leave issues.
+**Managers** are tasked with overseeing leave requests, planning for their teams, and ensuring compliance with policy requirements.
 
-### Management Responsibilities
+**Employees** must manage their attendance, provide timely notices of requested leave, and ensure all documentation is accurately submitted.
 
-Managers are tasked with approving leave requests, planning leave schedules, and monitoring employee leave.
+## Non-compliance with Leave Policy
 
-### Employee Responsibilities
-
-Employees need to ensure their leave requests are submitted properly and, in the case of illness, notify their managers promptly, providing necessary documentation.
-
-## Compliance
-
-Non-compliance with the Leave Policy may lead to disciplinary actions, emphasizing the importance of adherence to the established procedures.
-
-## Abandonment of Employment
-
-Absences of five consecutive workdays without notification may lead to the assumption of abandonment of employment, with necessary steps taken by management to address the situation.
+Non-compliance with the leave policy may lead to disciplinary actions, while unexplained absences may be treated as abandonment of employment.
