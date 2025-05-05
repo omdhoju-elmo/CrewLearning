@@ -48,7 +48,7 @@ def create_elearning():
     ]
 
     headers = {
-        "authorization": "Api-Key K2L1XuVKvHbe8tPrLuV5mcHHKUWmkQoGBbFRrdUzp_c",
+        "authorization": "xxxx",
         "content-type": "application/json",
         "namespace": "elmoau",
         "tenant-identifier": "1cover",
